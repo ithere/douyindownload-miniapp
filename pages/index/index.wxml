@@ -1,0 +1,80 @@
+<view class="wrap">
+  <view class="platforms">
+    <text class="platforms-title">魔搜去水印助手支持以下平台,部分平台不支持直接保存到相册</text>
+    <view class="page-body">
+      <view class="page-section page-section-spacing swiper">
+        <swiper>
+          <swiper-item>
+            <view class="swiper-item {{item}}">
+              <view class="platforms-item">
+                <image src="../../images/logo-douyin.png"></image>
+                <text>抖音</text>
+              </view>
+              <view class="platforms-item">
+                <image src="../../images/logo-gitShow.png"></image>
+                <text>快手</text>
+              </view>
+              <view class="platforms-item">
+                <image src="../../images/logo-ppx.png"></image>
+                <text>皮皮虾</text>
+              </view>
+              <view class="platforms-item">
+                <image src="../../images/logo-volcano.png"></image>
+                <text>火山视频</text>
+              </view>
+            </view>
+            <view class="swiper-item {{item}}">
+              <view class="platforms-item">
+                <image src="../../images/logo-microview.png"></image>
+                <text>微视</text>
+              </view>
+              <view class="platforms-item">
+                <image src="../../images/logo-meipai.png"></image>
+                <text>美拍</text>
+              </view>
+              <view class="platforms-item">
+                <image src="../../images/logo-xiaokaxiu.png"></image>
+                <text>小咖秀</text>
+              </view>
+              <view class="platforms-item">
+                <image src="../../images/logo-zuiyou.png"></image>
+                <text>最右</text>
+              </view>
+            </view>
+          </swiper-item>
+        </swiper>
+      </view>
+    </view>
+  </view>
+  <view class="watermark">
+    <view class="watermark-input">
+      <input bindinput="mousuosuo_input" id="inputText" placeholder=" 请复制视频链接，粘贴到这里" type="text" value="{{defaultUrl}}"></input>
+      <button bindtap="mousuosuo_clear" id="clearInputText">
+        <image src="../../images/icon-clear.png" wx:if="{{videoUrl==''}}"></image>
+        <image src="../../images/icon-clear-active.png" wx:else></image>
+      </button>
+    </view>
+    <button bindgetuserinfo="getUserInfo" class="parsing" hoverClass="parsing-btn-hover" openType="getUserInfo">一键去除水印</button>
+    <ad unitId="adunit-c0c3a4f8e7555786"></ad>
+    <view class="faq">
+      <view class="faq-header">
+        <text class="faq-header-title">常见问题</text>
+      </view>
+      <view class="faq-content">
+        <view bindtap="mousuosuo_showSvPro" class="faq-content-list" data-index="0">
+          <text>使用方法</text>
+          <image src="../../images/icon-more.png"></image>
+        </view>
+        <view bindtap="mousuosuo_showSvPro" class="faq-content-list" data-index="1">
+          <text>为什么视频成功解析了还有水印？</text>
+          <image src="../../images/icon-more.png"></image>
+        </view>
+        <view bindtap="mousuosuo_showSvPro" class="faq-content-list" data-index="2">
+          <text>为什么无法下载视频？</text>
+          <image src="../../images/icon-more.png"></image>
+        </view>
+      </view>
+    </view>
+    <view class="center">@ mosousuo.com</view>
+  </view>
+</view>
