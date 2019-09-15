@@ -1,0 +1,7 @@
+<view class="wrap">
+    <ad unitId="adunit-aa47148441f3a244"></ad>
+    <video controls class="video-box" src="{{dataUrl}}" wx:if="{{dataUrl!=''}}"></video>
+    <button bindgetuserinfo="postSave" class="parsing" openType="getUserInfo">保存到相册</button>
+    <button bindtap="goBack" class="parsing go-back">返回首页</button>
+    <ad unitId="adunit-da32b7d1121377b2"></ad>
+</view>
