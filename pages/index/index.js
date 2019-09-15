@@ -6,7 +6,7 @@ Page({
   data: {
     userInfo: {},
     videoUrl: '',
-    defaultUrl: 'http://v.douyin.com/DnsoBQ/'
+    defaultUrl: 'http://v.douyin.com/aWcudQ/'
   },
   //事件处理函数
   bindViewTap: function () {
