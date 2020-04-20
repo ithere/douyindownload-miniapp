@@ -2,6 +2,8 @@
 ##### mosousuo.com 抖音视频去水印微信小程序 记得替换你的appid
 ### 解析接口是普通接口只能解析短视频
 #### 其中用到了读取剪辑版数据和相册保存
+#### download 合法域名设置 [https://mp.weixin.qq.com/s/i6ORVdV9tfRjeG3uOirS1A](https://mp.weixin.qq.com/s/i6ORVdV9tfRjeG3uOirS1A)
+> 小程序后台先加入合法域名 https://v.ataobao.vip
 ##### 剪辑版数据
 ```
     wx.getClipboardData({
@@ -41,7 +43,7 @@ wx.saveVideoToPhotosAlbum({
 ![mosousuo](https://ae01.alicdn.com/kf/H5ac579f1544a4caab410eccb48b8e45f9.jpg)
 
 ###### demo和本程序使用的是一个接口
-![mosousuo](https://github.com/ithere/douyindownload-miniapp/blob/master/qrcode_ms.jpg)
+![mosousuo](https://qrcode_ms.jpg)
 
-![mosousuo](https://github.com/ithere/douyindownload-miniapp/blob/master/mosousuo_1.png)
+![mosousuo](https://mosousuo_1.png)
 
