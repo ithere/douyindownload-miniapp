@@ -40,10 +40,10 @@ wx.saveVideoToPhotosAlbum({
 ###### git源码地址: [https://github.com/ithere/douyindownload-miniapp](https://github.com/ithere/douyindownload-miniapp)
 
 ###### 增加个交流群
-![mosousuo](https://ae01.alicdn.com/kf/H5ac579f1544a4caab410eccb48b8e45f9.jpg)
+![mosousuo](https://ae01.alicdn.com/kf/H91d45e2eef8b4266b1095f265ade4c43H.png)
 
 ###### demo和本程序使用的是一个接口
-![mosousuo](https://qrcode_ms.jpg)
+![mosousuo](qrcode_ms.jpg)
 
-![mosousuo](https://mosousuo_1.png)
+![mosousuo](mosousuo_1.png)
 
