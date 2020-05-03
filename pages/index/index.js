@@ -6,7 +6,7 @@ Page({
   data: {
     userInfo: {},
     videoUrl: '',
-    defaultUrl: 'http://v.douyin.com/DnsoBQ/'
+    defaultUrl: 'https://v.douyin.com/aWcudQ/'
   },
   //事件处理函数
   bindViewTap: function () {
@@ -122,7 +122,9 @@ Page({
         'Content-Type': 'application/x-www-form-urlencoded'
       },
       data: {
-        url: a.data.videoUrl
+        url: a.data.videoUrl,
+        sp: 1,
+        action: ''
       },
       success: function (t) {
         wx.hideLoading(), t.data.msg ? (a.showToast('解析成功', 'success'), wx.setStorageSync('dataUrl', t.data.msg.video), app.globalData.videoSrc = t.data.message,

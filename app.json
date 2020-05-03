@@ -2,8 +2,34 @@
   "pages": [
     "pages/index/index",
     "pages/video/video",
+    "pages/tools/tools",
+    "pages/mine/mine",
     "pages/logs/logs"
   ],
+  "tabBar": {
+    "custom": false,
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "/images/main1.png",
+        "selectedIconPath": "/images/main2.png"
+      },
+      {
+        "pagePath": "pages/tools/tools",
+        "iconPath": "/images/tool1.png",
+        "selectedIconPath": "/images/tool2.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "iconPath": "/images/mine1.png",
+        "selectedIconPath": "/images/mine2.png"
+      }
+    ]
+  },
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
